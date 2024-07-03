@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Mis  |  Portafolio Web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+<!--barra de navegacion-->
+    <nav>
+        <h1>Aurora Mis</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!--seccion Hero-->
+    <section class="hero" id="about">
+        <img src="images/1.jpg" alt="women in tech" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-tittle">About me</h2>
+            <p class="bio-text">Estudiante de Ingenieria de Software en la Universidad Autónoma de Yucatán. Soy una mujer curiosa en el mundo de la tecnología, buscando dejar huella y hacer un cambio.</p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Soy estudiante de 3er semestre de Ingeniería de Software, carrera impartida por la UADY. Apasionada por el aprendizaje en todos los ámbitos. Mi curiosidad y ganas de aprender me han llevado a conocer de muchos temas.</p>
+        <p>Además de la tecnología, siempre disfruto de un buen libro, así como la música, los dramas coreanos, las tardes lluviosas y la compañía de mis mascotas.</p>
+        <p>Estoy comprometida con el desarrollo personal y profesional, buscando siempre crecer y adaptarme a los desafíos que la tecnología y el mundo actual presentan.</p>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My top skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my recent projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/project1.jpg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest clon</h3>
+                <p class="project-details">Proyecto de un clon de la interfaz de pinterest utilizando HTML y CSS</p>
+                <a href="#" target="_blank" class="project-link">Check it out!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/project1.jpg" alt="Proyecto en curso" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 2</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipiscing elit dui habitasse lacus</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/project1.jpg" alt="Proyecto en curso" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipiscing elit dui habitasse lacus</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Redes sociales-->
+    <div class="socials">
+        <a href="https://github.com/AuroraMis" target="_blank"><img src="icons/icons8-github.png" alt="github" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.instagram.com/im.katsuryex_/" target="_blank"><img src="icons/icons8-instagram.png" alt="instagram" loading="lazy" class="socicon"></a>
+
+        <a href="https://www.linkedin.com/in/aurora-mis-aguilar-aa38b728a/" target="_blank"><img src="icons/icons8-linkedin.png" alt="linkedin" loading="lazy" class="socicon"></a>
+
+        <a href="https://wa.me/529992002526" target="_blank"><img src="icons/icons8-whatsapp.png" alt="whatsapp" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/arrow_up.gif" class="socicon up-arrow" alt="scroll-up">
+    </i>
+
+
+    <!--Footer-->
+    <footer>
+        <p>Built with love by <a href="https://www.instagram.com/im.katsuryex_/" target="_blank">Aurora Mis</a></p>
+    </footer>
+
+    <!--JavaScrpt link-->
+    <script src="app.js"></script>
+
+
+
+        <!-- Ion icons scripts -->
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+
+</body>
+</html>
